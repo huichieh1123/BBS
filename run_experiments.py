@@ -27,17 +27,19 @@ def run_batch_experiments():
                 rid = clean_row.get('selection_run_id')
                 s_algo_ver = clean_row.get('selection_algo_ver')
                 b_algo_ver = clean_row.get('batch_algo_ver')
-                if rid and rid != 'N/A' and (s_algo_ver and b_algo_ver in ['greedy_ver3', 'greedy_ver3']):
+                if rid and rid != 'N/A' and (s_algo_ver in ['grasp_ver3', 'greedy_ver3']) and (b_algo_ver in ['grasp_ver3', 'greedy_ver3']):
                     run_ids.add(rid)
     except Exception as e:
         print(f"讀取 CSV 失敗: {e}")
         return
-
+    
     # 將 set 轉為 list 並排序，確保實驗順序一致
     sorted_run_ids = sorted(list(run_ids))
     total_count = len(sorted_run_ids)
     print(f"成功收集 {total_count} 個唯一的 selection_run_id。")
     print("--------------------------------------------------")
+
+    # return 0
 
     # 3. 循環執行實驗
     success_count = 0
