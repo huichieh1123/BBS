@@ -1,0 +1,31 @@
+# === Python 相關 ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# === Cython/C++ 編譯產物 (重要：不應上傳編譯後的二進位檔) ===
+*.so
+*.pyd
+*.pyc
+build/
+*.cpp
+
+# === 專案資料與輸出 (依據你的需求) ===
+# 排除所有實驗日誌資料夾
+logs/
+
+# 排除執行過程中產生的臨時 CSV
+.csv
+
+DB/
+
+# === 作業系統與 IDE ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
