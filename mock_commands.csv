@@ -1,4 +1,0 @@
-cmd_no,batch_id,cmd_type,cmd_priority,parent_carrier_id,src_row,src_bay,src_level,dest_row,dest_bay,dest_level,create_time
-1,20260117,target,1,8,2,4,7,-1,0,1,1705363260
-2,20260117,target,2,11,4,3,6,-1,0,1,1705363320
-3,20260117,target,3,6,1,7,1,-1,0,1,1705363380
