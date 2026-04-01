@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from models import (
     Base, CurCarrier, CfgLocation, CurInventory, 
-    CurCmdMaster, CurCmdDetail, CurOrderMaster, CurOrderDetail
+    CurCmdMaster, CurCmdDetail
 )
 from sqlalchemy.pool import NullPool
 import pandas as pd

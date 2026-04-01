@@ -1,0 +1,17 @@
+﻿Order Scenario,Inv Scenario,Batch Time Window,Batch Algo. Ver.,Selection Algo. Ver.,Number of Tasks,Makespan,CPU time
+small_uni,2x2_slot_inorder_place_cluster,5.0,grasp_ver3,grasp_ver3,2005.0,74786.0,271.4401
+small_uni,2x2_slot_inorder_place_cluster,5.0,grasp_ver3,greedy_ver3,2234.0,78149.0,276.8331
+small_uni,2x2_slot_inorder_place_cluster,5.0,greedy_ver3,grasp_ver3,2055.0,76068.0,270.412
+small_uni,2x2_slot_inorder_place_cluster,5.0,greedy_ver3,greedy_ver3,2278.0,78560.0,276.8786
+small_uni,2x2_slot_inorder_place_inorder,5.0,grasp_ver3,grasp_ver3,1873.0,65362.0,269.8997
+small_uni,2x2_slot_inorder_place_inorder,5.0,grasp_ver3,greedy_ver3,1998.0,67139.0,270.4662
+small_uni,2x2_slot_inorder_place_inorder,5.0,greedy_ver3,grasp_ver3,1919.0,67057.0,268.8683
+small_uni,2x2_slot_inorder_place_inorder,5.0,greedy_ver3,greedy_ver3,1981.0,65921.0,268.6678
+small_uni,2x2_slot_inorder_place_random,5.0,grasp_ver3,grasp_ver3,1183.0,46515.0,244.4186
+small_uni,2x2_slot_inorder_place_random,5.0,grasp_ver3,greedy_ver3,2513.0,83031.0,268.8311
+small_uni,2x2_slot_inorder_place_random,5.0,greedy_ver3,grasp_ver3,1303.0,48960.0,257.1911
+small_uni,2x2_slot_inorder_place_random,5.0,greedy_ver3,greedy_ver3,2804.0,91694.0,287.5321
+small_uni,2x2_slot_random_place_random,5.0,grasp_ver3,grasp_ver3,1435.0,50272.0,256.7338
+small_uni,2x2_slot_random_place_random,5.0,grasp_ver3,greedy_ver3,3189.0,98228.0,287.3523
+small_uni,2x2_slot_random_place_random,5.0,greedy_ver3,grasp_ver3,1510.0,51875.0,255.8673
+small_uni,2x2_slot_random_place_random,5.0,greedy_ver3,greedy_ver3,3198.0,98304.0,287.93

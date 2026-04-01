@@ -1,4 +1,4 @@
 ﻿reseq_id,selection_run_id,inv_scenario,parent_carrier_id,dest_position,cmd_id
-RESEQ_20260314_210630,20260203174258,2x2_slot_random_place_random,C00007,0,5843
-RESEQ_20260314_210630,20260203174258,2x2_slot_random_place_random,C00010,0,5844
-RESEQ_20260314_210630,20260203174258,2x2_slot_random_place_random,C00005,0,5842
+RESEQ_20260329_033338,20260310114320,2x2_slot_random_place_random,C00052,0,15637
+RESEQ_20260329_033338,20260310114320,2x2_slot_random_place_random,C00392,0,15643
+RESEQ_20260329_033338,20260310114320,2x2_slot_random_place_random,C00273,0,15640
